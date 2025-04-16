@@ -29,7 +29,7 @@ import { motion } from 'framer-motion';
 const about = {
 	title: 'About me',
 	description:
-		'Having worked as a programmer for more than two years. Currently located in Yogyakarta, and fluent in both English and Indonesian.',
+		'Having worked as a programmer for more than three years. Currently located in Yogyakarta, and fluent in both English and Indonesian.',
 	info: [
 		{
 			fieldName: 'Name',
@@ -57,7 +57,7 @@ const about = {
 		},
 		{
 			fieldName: 'Experience',
-			fieldValue: '+2 Years',
+			fieldValue: '+3 Years',
 		},
 		{
 			fieldName: 'Languages',
