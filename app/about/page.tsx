@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {
 	FaPython,
@@ -7,7 +7,7 @@ import {
 	FaJs,
 	FaCss3,
 	FaDocker,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 import {
 	SiKotlin,
 	SiMysql,
@@ -15,157 +15,157 @@ import {
 	SiGitlab,
 	SiOdoo,
 	SiLaravel,
-} from 'react-icons/si';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+} from "react-icons/si";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
 	Tooltip,
 	TooltipContent,
 	TooltipProvider,
 	TooltipTrigger,
-} from '@/components/ui/tooltip';
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { motion } from 'framer-motion';
+} from "@/components/ui/tooltip";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { motion } from "framer-motion";
 
 const about = {
-	title: 'About me',
+	title: "About me",
 	description:
-		'Having worked as a programmer for more than three years. Currently located in Yogyakarta, and fluent in both English and Indonesian.',
+		"Having worked as a programmer for more than three years. Currently located in Yogyakarta, and fluent in both English and Indonesian.",
 	info: [
 		{
-			fieldName: 'Name',
-			fieldValue: 'Aldi Rosid Saputra',
+			fieldName: "Name",
+			fieldValue: "Aldi Rosid Saputra",
 		},
 		{
-			fieldName: 'Phone',
-			fieldValue: '(+62) 815 2976 3081',
+			fieldName: "Phone",
+			fieldValue: "(+62) 815 2976 3081",
 		},
 		{
-			fieldName: 'Date of Birth',
-			fieldValue: 'Feb 2001, 11',
+			fieldName: "Date of Birth",
+			fieldValue: "Feb 2001, 11",
 		},
 		{
-			fieldName: 'Email',
-			fieldValue: 'aldirosidsaputra@gmail.com',
+			fieldName: "Email",
+			fieldValue: "aldirosidsaputra@gmail.com",
 		},
 		{
-			fieldName: 'Nationality',
-			fieldValue: 'Indonesian',
+			fieldName: "Nationality",
+			fieldValue: "Indonesian",
 		},
 		{
-			fieldName: 'Address',
-			fieldValue: 'Bantul, DI Yogyakarta',
+			fieldName: "Address",
+			fieldValue: "Bantul, DI Yogyakarta",
 		},
 		{
-			fieldName: 'Experience',
-			fieldValue: '+3 Years',
+			fieldName: "Experience",
+			fieldValue: "+3 Years",
 		},
 		{
-			fieldName: 'Languages',
-			fieldValue: 'English, Indonesian',
+			fieldName: "Languages",
+			fieldValue: "English, Indonesian",
 		},
 	],
 };
 
 const experience = {
-	icon: '/assets/resume/badge.svg',
-	title: 'My experience',
+	icon: "/assets/resume/badge.svg",
+	title: "My experience",
 	description:
-		'Has experience as an Odoo Developer, Android Developer, and Full Stack Developer.',
+		"Has experience as an Odoo Developer, Android Developer, and Full Stack Developer.",
 	items: [
 		{
-			company: 'PT. IGP Internasional',
-			position: 'Odoo Developer & Business Analyst',
-			duration: 'Aug 2024 - Present',
+			company: "PT. IGP Internasional",
+			position: "Odoo Developer",
+			duration: "Nov 2023 - Present",
 		},
 		{
-			company: 'PT. IGP Internasional',
-			position: 'Odoo Developer',
-			duration: 'Nov 2023 - Aug 2024',
+			company: "District Court of Kediri",
+			position: "Android Developer Intern",
+			duration: "Summer 2022",
 		},
 		{
-			company: 'District Court of Kediri',
-			position: 'Android Developer Intern',
-			duration: 'Summer 2022',
+			company: "Project Based",
+			position: "Freelance Odoo Developer",
+			duration: "2023 - Present",
 		},
 		{
-			company: 'Freelance',
-			position: 'Full Stack Developer',
-			duration: '2022 - 2024',
+			company: "Project Based",
+			position: "Freelance Fullstack Developer",
+			duration: "2022 - 2024",
 		},
 	],
 };
 
 const education = {
-	icon: '/assets/resume/cap.svg',
-	title: 'My education',
+	icon: "/assets/resume/cap.svg",
+	title: "My education",
 	description:
-		'Completed an Associate Degree in Informatics Management at State Polytechnic of Malang.',
+		"Completed an Associate Degree in Informatics Management at State Polytechnic of Malang.",
 	items: [
 		{
-			institution: 'State Polytechnic of Malang',
-			degree: 'Associate Degree in Informatics Management',
-			duration: '2020 - 2023',
+			institution: "State Polytechnic of Malang",
+			degree: "Associate Degree in Informatics Management",
+			duration: "2020 - 2023",
 		},
 		{
-			institution: 'SMAN 1 Wates',
-			degree: 'Natural Sciences Major',
-			duration: '2016 - 2019',
+			institution: "SMAN 1 Wates",
+			degree: "Natural Sciences Major",
+			duration: "2016 - 2019",
 		},
 	],
 };
 
 const skills = {
-	title: 'My skills',
+	title: "My skills",
 	description:
-		'Proficient in various technologies and programming languages, including web development, database management, and software development tools.',
+		"Proficient in various technologies and programming languages, including web development, database management, and software development tools.",
 	skilList: [
 		{
 			icon: <FaPython />,
-			name: 'python',
+			name: "python",
 		},
 		{
 			icon: <FaJs />,
-			name: 'javascript',
+			name: "javascript",
 		},
 		{
 			icon: <FaPhp />,
-			name: 'php',
+			name: "php",
 		},
 		{
 			icon: <FaHtml5 />,
-			name: 'html 5',
+			name: "html 5",
 		},
 		{
 			icon: <FaCss3 />,
-			name: 'css 3',
+			name: "css 3",
 		},
 		{
 			icon: <SiKotlin />,
-			name: 'kotlin',
+			name: "kotlin",
 		},
 		{
 			icon: <SiOdoo />,
-			name: 'odoo',
+			name: "odoo",
 		},
 		{
 			icon: <SiLaravel />,
-			name: 'laravel',
+			name: "laravel",
 		},
 		{
 			icon: <SiMysql />,
-			name: 'mysql',
+			name: "mysql",
 		},
 		{
 			icon: <SiPostgresql />,
-			name: 'postgresql',
+			name: "postgresql",
 		},
 		{
 			icon: <FaDocker />,
-			name: 'docker',
+			name: "docker",
 		},
 		{
 			icon: <SiGitlab />,
-			name: 'gitlab',
+			name: "gitlab",
 		},
 	],
 };
@@ -176,7 +176,7 @@ const About = () => {
 			initial={{ opacity: 0 }}
 			animate={{
 				opacity: 1,
-				transition: { delay: 2.4, duration: 0.4, ease: 'easeIn' },
+				transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
 			}}
 			className='min-h-[74vh] flex items-center justify-center py-8 xl:py-0'
 		>
