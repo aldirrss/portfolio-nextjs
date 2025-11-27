@@ -19,6 +19,22 @@ const projects = [
 	{
 		num: "01",
 		category: "odoo",
+		title: "agriculture management",
+		description:
+			"Developed an Odoo-based agriculture management system, enhancing farm operations with Python, JavaScript, and PostgreSQL.",
+		stack: [
+			{ name: "Python" },
+			{ name: "Js" },
+			{ name: "Postgresql" },
+			{ name: "+3" },
+		],
+		image: "/assets/project/thumb_default.jpg",
+		live: "https://erp.jawalama.com/",
+		github: "",
+	},
+	{
+		num: "02",
+		category: "odoo",
 		title: "restaurant fairy kale",
 		description:
 			"Developed a restaurant management system with Odoo for a vegetarian eatery, using Python, JavaScript, and PostgreSQL for seamless integration.",
@@ -29,11 +45,11 @@ const projects = [
 			{ name: "+3" },
 		],
 		image: "/assets/project/thumb1.png",
-		live: "https://marcoworld.co.id/",
+		live: "https://erp.marcoworld.co.id/",
 		github: "",
 	},
 	{
-		num: "02",
+		num: "03",
 		category: "odoo",
 		title: "clinic management",
 		description:
@@ -44,7 +60,7 @@ const projects = [
 		github: "https://github.com/mrAldirs/clinic_management.git",
 	},
 	{
-		num: "03",
+		num: "04",
 		category: "odoo",
 		title: "PPDB management",
 		description:
@@ -55,7 +71,7 @@ const projects = [
 		github: "https://github.com/mrAldirs/school_management.git",
 	},
 	{
-		num: "04",
+		num: "05",
 		category: "web",
 		title: "Dinas Budaya",
 		description:
@@ -71,7 +87,7 @@ const projects = [
 		github: "https://github.com/mrAldirs/dinas-budaya-web.git",
 	},
 	{
-		num: "05",
+		num: "06",
 		category: "web",
 		title: "Kos Management",
 		description:
@@ -87,7 +103,7 @@ const projects = [
 		github: "https://github.com/mrAldirs/kos-management-web.git",
 	},
 	{
-		num: "06",
+		num: "07",
 		category: "web",
 		title: "Atlet Management",
 		description:
@@ -103,7 +119,7 @@ const projects = [
 		github: "https://github.com/mrAldirs/athlete_monitoring_web.git",
 	},
 	{
-		num: "07",
+		num: "08",
 		category: "android",
 		title: "Vapestore Application",
 		description:
@@ -114,7 +130,7 @@ const projects = [
 		github: "https://github.com/mrAldirs/si-vapestore-app.git",
 	},
 	{
-		num: "08",
+		num: "09",
 		category: "android",
 		title: "Rent Car Application",
 		description:
@@ -125,7 +141,7 @@ const projects = [
 		github: "https://github.com/mrAldirs/kotlin-rent-car-app.git",
 	},
 	{
-		num: "09",
+		num: "10",
 		category: "android",
 		title: "Hijab Mobile Application",
 		description:

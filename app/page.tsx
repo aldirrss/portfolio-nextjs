@@ -11,13 +11,13 @@ const Home = () => {
 				<div className='flex flex-col xl:flex-row items-center justify-between xl:pt-4 xl:pb-10'>
 					{/* text */}
 					<div className='text-center xl:text-left order-2 xl:order-none'>
-						<span className='text-xl'>Programmer</span>
+						<span className='text-xl'>Software Engineer</span>
 						<h1 className='h1 mb-3'>
 							Hello, I&apos;m <br />
 							<span className='text-accent'>Aldi Rosid</span>
 						</h1>
 						<p className='max-w-[500px] mb-9 text-white/80'>
-							Experienced Software Developer specializing in Odoo ERP custom
+							Experienced Software Engineer specializing in Odoo ERP custom
 							modules, mobile applications, and backend system architecture.
 						</p>
 						{/* button and socials */}

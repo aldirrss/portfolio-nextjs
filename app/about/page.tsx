@@ -7,6 +7,10 @@ import {
 	FaJs,
 	FaCss3,
 	FaDocker,
+	FaLinux,
+	FaGithub,
+	FaWindows,
+	FaUbuntu,
 } from "react-icons/fa";
 import {
 	SiKotlin,
@@ -15,6 +19,7 @@ import {
 	SiGitlab,
 	SiOdoo,
 	SiLaravel,
+	SiNextdotjs,
 } from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -29,7 +34,7 @@ import { motion } from "framer-motion";
 const about = {
 	title: "About me",
 	description:
-		"Having worked as a programmer for more than three years. Currently located in Yogyakarta, and fluent in both English and Indonesian.",
+		"Having worked as a software engineer for more than four years. Currently located in Yogyakarta, and fluent in both English and Indonesian.",
 	info: [
 		{
 			fieldName: "Name",
@@ -37,7 +42,7 @@ const about = {
 		},
 		{
 			fieldName: "Phone",
-			fieldValue: "(+62) 815 2976 3081",
+			fieldValue: "+62 815 2976 3081",
 		},
 		{
 			fieldName: "Date of Birth",
@@ -57,7 +62,7 @@ const about = {
 		},
 		{
 			fieldName: "Experience",
-			fieldValue: "+3 Years",
+			fieldValue: "+4 Years",
 		},
 		{
 			fieldName: "Languages",
@@ -69,23 +74,27 @@ const about = {
 const experience = {
 	icon: "/assets/resume/badge.svg",
 	title: "My experience",
-	description:
-		"Has experience as an Odoo Developer, Android Developer, and Full Stack Developer.",
+	description: "Has experience as an Odoo Developer and Android Developer.",
 	items: [
+		{
+			company: "PT Bipo Teknologi Otomotif",
+			position: "Odoo Developer",
+			duration: "Dec 2025 - Present",
+		},
+		{
+			company: "PT. IGP Internasional",
+			position: "Odoo Technical Consultant",
+			duration: "Dec 2025 - Present",
+		},
 		{
 			company: "PT. IGP Internasional",
 			position: "Odoo Developer",
-			duration: "Nov 2023 - Present",
+			duration: "Nov 2023 - Dec 2025",
 		},
 		{
 			company: "District Court of Kediri",
 			position: "Android Developer Intern",
 			duration: "Summer 2022",
-		},
-		{
-			company: "Project Based",
-			position: "Freelance Odoo Developer",
-			duration: "2023 - Present",
 		},
 		{
 			company: "Project Based",
@@ -99,8 +108,13 @@ const education = {
 	icon: "/assets/resume/cap.svg",
 	title: "My education",
 	description:
-		"Completed an Associate Degree in Informatics Management at State Polytechnic of Malang.",
+		"Graduated with an Associate Degree in Informatics Management from the State Polytechnic of Malang. Currently pursuing a Bachelor's degree in Informatics Engineering at Stekom University.",
 	items: [
+		{
+			institution: "Stekom University",
+			degree: "Bachelor of Informatics Engineering",
+			duration: "2025 - Present",
+		},
 		{
 			institution: "State Polytechnic of Malang",
 			degree: "Associate Degree in Informatics Management",
@@ -119,6 +133,10 @@ const skills = {
 	description:
 		"Proficient in various technologies and programming languages, including web development, database management, and software development tools.",
 	skilList: [
+		{
+			icon: <FaUbuntu />,
+			name: "linux ubuntu",
+		},
 		{
 			icon: <FaPython />,
 			name: "python",
@@ -166,6 +184,10 @@ const skills = {
 		{
 			icon: <SiGitlab />,
 			name: "gitlab",
+		},
+		{
+			icon: <FaGithub />,
+			name: "github",
 		},
 	],
 };

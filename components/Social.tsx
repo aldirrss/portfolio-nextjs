@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { SiOdoo } from "react-icons/si";
 
 const socials = [
-	{ icon: <FaGithub />, path: "https://github.com/mrAldirs" },
+	{ icon: <FaGithub />, path: "https://github.com/aldirrss" },
 	{
 		icon: <FaLinkedin />,
 		path: "https://www.linkedin.com/in/aldi-rosid-saputra-5077a728b",
