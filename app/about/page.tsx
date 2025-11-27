@@ -82,12 +82,12 @@ const experience = {
 			duration: "Dec 2025 - Present",
 		},
 		{
-			company: "PT. IGP Internasional",
+			company: "PT IGP Internasional",
 			position: "Odoo Technical Consultant",
 			duration: "Dec 2025 - Present",
 		},
 		{
-			company: "PT. IGP Internasional",
+			company: "PT IGP Internasional",
 			position: "Odoo Developer",
 			duration: "Nov 2023 - Dec 2025",
 		},
